@@ -1143,9 +1143,9 @@ export default function App() {
                     <div className="relative">
                       <div className="absolute -left-[30px] top-1 w-4 h-4 rounded-full bg-emerald-500 border-4 border-slate-50 dark:border-[#0F172A]"></div>
                       <div className="space-y-1">
-                        <span className="font-mono text-[10px] text-slate-450 text-slate-500 font-bold">2023 - 2027</span>
-                        <h4 className="font-bold uppercase tracking-tight text-slate-900 dark:text-white text-base">Bachelor of Technology & Systems Engineering</h4>
-                        <span className="block font-mono text-xs text-emerald-600 dark:text-emerald-400">VIT University (Vellore Institute of Technology)</span>
+                        <span className="font-mono text-[10px] text-slate-450 text-slate-500 font-bold">2024 - 2028</span>
+                        <h4 className="font-bold uppercase tracking-tight text-slate-900 dark:text-white text-base">Bachelor of Engineering Computer Science</h4>
+                        <span className="block font-mono text-xs text-emerald-600 dark:text-emerald-400">MIT (Madras Institute of Technology)</span>
                         <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed pr-4 pt-2">
                           Specializing in technical architectures, modern web integrations, and database design. Grounded heavily in algorithmic analysis, telemetry layouts, and IoT firmware parameters.
                         </p>
@@ -1156,7 +1156,7 @@ export default function App() {
                     <div className="relative">
                       <div className="absolute -left-[30px] top-1 w-4 h-4 rounded-full bg-slate-300 dark:bg-slate-700 border-4 border-slate-50 dark:border-[#0F172A]"></div>
                       <div className="space-y-1">
-                        <span className="font-mono text-[10px] text-slate-500">Completed 2023</span>
+                        <span className="font-mono text-[10px] text-slate-500">Completed 2024</span>
                         <h4 className="font-bold uppercase tracking-tight text-slate-900 dark:text-white text-base">Higher Secondary Education Certificate</h4>
                         <span className="block font-mono text-xs text-emerald-600 dark:text-emerald-400">Advanced Mathematics & Computer Applications Block</span>
                         <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed pr-4 pt-1">
