@@ -1,0 +1,6 @@
+{
+  "name": "Phaneendra - Portfolio Website",
+  "description": "A personal professional portfolio website with an interactive resume, responsive design, dark/light mode, a Node.js Express API, and local database storage managing projects, blogs, and contact messages.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
