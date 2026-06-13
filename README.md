@@ -25,50 +25,12 @@ Tech stack
 - React 19 (client)
 - Vite (dev tooling / build)
 - Express (server API + static server)
-- TypeScript for server utilities (db & routes)
-- Tailwind / utility-first styling (configured via `@tailwindcss/vite` plugin)
+- HTML
+- JavaScript
+- CSS
 - Lucide icons for UI icons
 
-Getting started (local development)
-1. Install dependencies
 
-   npm install
-
-2. Run the dev server
-
-   npm run dev
-
-   This starts Vite on port 3000 and an Express API mounted by the Vite dev server plugin. Open http://localhost:3000 in your browser.
-
-3. Run the production server build and preview
-
-   npm run build
-   npm run preview
-
-   Or run the Node production server directly (this serves the built `dist` folder):
-
-   npm run start
-
-Available npm scripts
-- start — Run the production Node server (`tsx server.ts`)
-- dev — Start Vite dev server (port 3000, host 0.0.0.0)
-- build — Build the client with Vite
-- preview — Preview the built site using Vite preview
-- clean — Remove `dist` and `server.js` artifacts
-- lint — Type-check with `tsc --noEmit`
-
-Project layout
-- server.ts — Express production server that serves `dist` and registers API routes
-- vite.config.ts — Vite configuration; includes a small Express plugin that mounts API routes during dev
-- package.json — Scripts and dependencies
-- src/
-  - App.jsx — Main React component and admin panel UI
-  - main.jsx — React entry file
-  - index.css — global styles (Tailwind / utility classes)
-  - server/
-    - db.ts — File-backed DB shim (reads/writes `data/db.json`) and data seed
-    - routes.ts — Express route definitions for /api/projects, /api/blogs, /api/contacts
-- data/db.json — (created at runtime) persistence for projects, blogs and messages
 
 API endpoints
 The server exposes simple JSON endpoints used by the admin UI and client-side fetches:
